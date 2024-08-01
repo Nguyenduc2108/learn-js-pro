@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Integration JS</title>
+        <!-- internal -->
+        <!-- không tái sử dụng, code nhỏ -->
+        <script>
+            console.log("Internal");
+        </script>
+    </head>
+    <body>
+        <!-- inline -->
+        <button onclick="console.log('Clicked');">Click me!</button>
+
+        <!-- external -->
+        <!-- Tái sử dụng, dễ đọc -->
+        <script src="./main.js">
+            console.log(123123);
+        </script>
+    </body>
+</html>

@@ -1,0 +1,16 @@
+html: vật liệu xây nhà
+css: sơn, màu sắc 
+js: hệ thống, chức năng trong nhà
+
+1. cách tích hợp js vào website
+    . internal
+    . external
+    . inline
+    . viết trực tiếp trong console ( thường để test, debug)
+    . viết trên url( thường để check, hack)
+
+2. 1 số lỗi
+    . viết script lên đầu 
+    . viết code trong script có attr: src 
+    . viết script trong file main.js
+    
