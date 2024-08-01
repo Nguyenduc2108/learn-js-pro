@@ -1,0 +1,21 @@
+1. Tầm quan trọng của JavaScript: 
+    . biến trang web tĩnh thành trang web động
+    . tương tác với người dùng
+    . ngôn ngữ không thể thiếu trong phát triển web
+
+2. JavaScript làm cả Frontend và Backend:
+    . làm việc với phía máy chủ và máy khách
+    . mở rộng sang máy chủ với Node.js
+    . hỗ trợ xây dựng các ứng dụng đa nền tảng từ Frontend, Backend, Mobile, Desktop, v.v
+
+3. Hạn chế của JavaScript:
+    . định kiểu yếu
+    . quản lý bất đồng bộ
+    . khác biệt giữa các trình duyệt
+    . vấn đề về an toàn, bảo mật
+    . hiệu suất và quản lý bộ nhớ.
+
+==> Kết luận:
+    . một phần quan trọng không thể thiếu khi phát triển web
+    . cần có sự hiểu biết sâu về ngôn ngữ này và cần rèn luyện thêm tư duy logic
+    . tư duy giải quyết vấn đề để có thể sử dụng ngôn ngữ này một cách hiệu quả.
