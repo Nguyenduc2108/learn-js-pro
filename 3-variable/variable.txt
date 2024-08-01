@@ -1,0 +1,27 @@
+1. Biến:
+    . như 1 hộp đựng có tên và giá trị
+    . có một tên duy nhất và chứa một giá trị cụ thể
+
+2. Cách khai báo biến:
+    . var: Được sử dụng trong JavaScript cũ, có phạm vi rộng (ngày nay, không nên dùng var cho các dự án mới nữa)
+    . let: Có phạm vi hẹp hơn, chỉ tồn tại trong khối code gần nhất
+    . const: Giống như let nhưng giá trị không thể thay đổi sau khi được gán
+
+3. Lưu trữ và cập nhật giá trị:
+    . biến có thể được gán và thay đổi giá trị ( let , var)
+    . biến có thể được gán và không thay đổi giá trị (const)
+
+4. Nguyên tắc đặt tên biến:
+    . Sử dụng tiếng Anh
+    . Rõ ràng và mô tả ý nghĩa
+    . Sử dụng camelCase
+    . Phân biệt chữ hoa, chữ thường
+    . Không bắt đầu bằng số
+    . Không sử dụng từ khóa của JavaScript
+    . Độ dài tên biến phù hợp
+
+5. Lỗi thường gặp:
+    . Đặt tên biến không rõ ràng, không mô tả chính xác nội dung lưu trữ 
+    . Khai báo biến trùng tên với biến đã tồn tại
+    . Nhầm lẫn giữa let và const
+    . Sử dụng var trong các dự án mới mà không cần thiết
