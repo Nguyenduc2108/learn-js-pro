@@ -82,3 +82,12 @@ aaa %= 3; // Tương đương a = a % 3; giờ a là 1, vì 10 chia 3 dư 1
 
 let bbb = 3;
 bbb **= 2; // Tương đương b = b ** 2; giờ b là 9, vì 3 mũ 2 là 9
+
+// 11.Toán tử ++i và i++
+let i = 5;
+
+console.log(i++); // 5
+console.log(i); // 6
+
+console.log(++i); // 6
+console.log(i); // 6

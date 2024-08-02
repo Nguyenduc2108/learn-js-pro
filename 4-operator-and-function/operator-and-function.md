@@ -30,6 +30,11 @@
         . Quên ưu tiên phép tính: ưu tiên phép nhân và chia trước, cộng và trừ sau
         . Quên phép chia lấy số dư: phép chia lấy dư sẽ trả về phần dư của phép chia sau khi lấy phần nguyên của kết quả
 
+    1.5. Toán tử i++ (Post-increment) and Toán tử ++i (Pre-increment)
+        . Toán tử i++   Trả về giá trị hiện tại của i, sau đó mới tăng giá trị lên 1
+        . Toán tử ++i   Tăng giá trị của i lên 1, sau đó trả về giá trị mới
+        . Toán tử -- có cách hoạt động tương tự. Điểm khác biệt là toán tử -- trừ đi 1, trong khi ++ là cộng thêm 1
+
 # 2.Function
 
     2.1. Hàm là gì?
