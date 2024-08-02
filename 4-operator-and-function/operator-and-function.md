@@ -74,3 +74,13 @@
         . lỗi thường gặp
 
     ==> 1 function chỉ nên làm 1 việc
+
+    2.8. Các Loại hàm:
+        . Hàm khai báo (Declaration function)
+        . Hàm biểu thức (Function expression)
+        . Hàm mũi tên (Arrow function)
+
+    2.9. Khi nào thì sử dụng loại hàm nào?
+        . Declaration function: cần sử dụng được hàm trước khi khai báo, hoặc đơn giản muốn dùng cách truyền thống
+        . Function expression: muốn chỉ gọi được hàm sau khi khai báo, hoặc khi hàm được sử dụng như một giá trị (ví dụ, truyền hàm như một tham số)
+        . Arrow function: cần một cú pháp ngắn gọn hoặc khi làm việc với this trong một ngữ cảnh nhất định (vì hàm mũi tên không có this riêng của nó)

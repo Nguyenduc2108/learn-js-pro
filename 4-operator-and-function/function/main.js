@@ -75,3 +75,35 @@ function sum(a, b) {
     console.log(a + b);
 }
 sum(2, 5); // In ra: 5
+
+//  Các loại hàm
+// 1.Hàm khai báo là gì? (Declaration function)
+function tenHam(thamSo) {
+    // Khối lệnh
+}
+
+function tinhTong(a, b) {
+    return a + b;
+}
+console.log(tinhTong(5, 3)); // 8
+
+// 2.Hàm biểu thức là gì? (Expression function)
+const tenHam = function (thamSo) {
+    // Khối lệnh
+};
+
+const tinhHieu = function (a, b) {
+    return a - b;
+};
+console.log(tinhHieu(5, 3)); // 2
+
+// 3.Hàm mũi tên là gì? (Arrow function)
+const tenHam = (thamSo) => {
+    // Khối lệnh
+};
+
+const tinhTich = (a, b) => {
+    return a * b;
+};
+
+console.log(tinhTich(5, 3)); // 15
