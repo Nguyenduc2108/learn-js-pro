@@ -102,4 +102,50 @@ JSON.stringify()
 2. quản lý công việc: 1 công việc là 1 đối tượng
    (add, edit, remove, completed, thêm lời nhắc,...)
 
-# 9. Object Prototypes
+# 9. Các hàm tạo dựng sẵn (Built-in Javascript Constructor)
+
+    . String , Number , Boolean, Array, Function, ...
+
+    . String(x), Number(x), Boolean(x) => Ép kiểu
+
+    . Array, Object: Làm việc với array , object
+
+        . Array.isArray(x),  x instanceof Array,...
+        (kiểm tra có phải mảng không)
+
+        . Object.assign(x,y), Object.keys(x),...
+
+        . Function: Tạo hàm động (Tạo hàm từ chuỗi)
+
+        . null, undefined: Không có hàm tướng ứng
+        . BigInt, Symbol: Có hàm, không phải constructor
+
+=> dùng từ khóa new => trả về đối tường => là object
+
+## 9.1 Wrapper Object
+
+## 9.2. Hàm tạo trả về đối tượng khi sử dụng từ khóa new
+
+=> Cách lấy ra => dùng .valueOf()
+
+# 10. Object Prototypes chi tiết
+
+    . là cơ chế kế thừa
+    thuộc tính và phương thức của đối tượng trong JS
+
+    . Object.prototype
+        . tạo thuộc tính , phương thức mới
+
+        . Kiểm tra 1 thuộc tính có thuộc sở hữu của Object hay ko
+        => dùng hàm có sẵn hasOwnProperty()
+
+        - sửa hàm có sẵn của JS
+
+# 11. Cơ chế Autoboxing => dễ làm việc với kiểu dữ liệu nguyên thủy, giúp có thể truy cập thuộc tính và phương thức
+
+    . nguyên lý : tạo ra 1 đối tượng tạm thời
+
+    . cơ chế tự động trong JS
+    => ko thể can thiệp để thay đổi cơ chế
+
+    . nul , undefined => ko có autoboxing
