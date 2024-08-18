@@ -149,3 +149,59 @@ JSON.stringify()
     => ko thể can thiệp để thay đổi cơ chế
 
     . nul , undefined => ko có autoboxing
+
+# 12. Prototype chain (Kế thừa theo chuỗi)
+
+    . lấy prototype => ten_object.__proto__
+
+    . kế thừa Object.prototype
+
+    . Object.create => không có prototype
+
+# 13. Object.create()
+
+    . là phương thức tạo ra 1 đối tượng mới
+    => object => kế thừa prototype
+    => null =>(no prototype)
+    và có thể chỉ định 1 đối tượng khác là prototype cho đối tượng mới đó
+    =>: ghi đè ( Override)
+
+# 14. valueOf() and toString()
+
+    . valueOf():
+        . luôn thực hiện trước toString()
+        . nếu trả về kiểu dữ liệu nguyên thủy => lấy giá trị
+        . nếu trả về kiểu dữ liệu không nguyên thủy => thực hiện toString()
+
+    . toString():
+        . sẽ trả về giá trị => [object Object]
+
+=> cách xử lý valueOf() trả về kiểu dữ liệu không nguyên thủy
+=> ghi đè lại phương thức valueOf() ở hàm tạo
+
+===> JS chỉ cố gắng covert 1 lần
+
+# 15. Thêm 1 cách để check kiểu dữ liệu
+
+    . dùng Object.prototype.toString.call(value) === "[object Object]" | "[object Number]" | ....
+
+# 16. Từ khóa this nâng cao (advanced)
+
+    . Context (ngữ cảnh) : quan tâm đối tượng nới đoạn mã được thực thì , được xác định bởi từ khóa this
+
+        . ngữ cảnh toàn cục
+
+        . ngữ cảnh hàm
+
+# 17. Các phương thức bind, call, apply
+
+    . bind : => sao chép ra hàm mới tham chiếu đến hàm cũ => trả về 1 hàm mới
+        . arrow function => ko có bind
+    . bind(this, value1, value2,..) => cái đầu tiên cho this
+                                    => các cái sao cho tham số 1,2,...
+    => có thể mượn hàm
+
+
+    . call => gọi hàm ngay lập tức
+
+    . apply => nhận đối số dưới dạng Array
